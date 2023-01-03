@@ -5,7 +5,7 @@ import threading
 max_threads = int(input("Enter the maximum number of threads: "))
 apikey = input("Enter your API key from https://ocr.space/ (its free): ")
 link = input('Enter the video link to your tiktok video: ') or 'https://www.tiktok.com/@db_crystal_choice/video/7152658281746500870'
-apikey = 'K87766946388957'
+
 
 def open_threads(max_threads):
     # create a list of threads
