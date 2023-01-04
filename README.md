@@ -2,7 +2,7 @@
 
 
 <a href="https://github.com/anuraghazra/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/greenteabots/github-readme-stats" />
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/anuraghazra/github-readme-stats" />
 
 Bypassing Captcha as many times as you want!! Earning you free tiktok views. Needs API KEY FROM OCR.SPACE! 
 
