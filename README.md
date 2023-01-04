@@ -1,3 +1,5 @@
+[![GreenTeaBots GitHub stats](https://github-readme-stats.vercel.app/api?username=greenteabots)](https://github.com/anuraghazra/github-readme-stats)
+
 Bypassing Captcha as many times as you want!! Earning you free tiktok views. Needs API KEY FROM OCR.SPACE! 
 
 
