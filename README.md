@@ -1,8 +1,6 @@
 [![GreenTeaBots GitHub stats](https://github-readme-stats.vercel.app/api?username=greenteabots)](https://github.com/anuraghazra/github-readme-stats)
 
 
-<a href="https://github.com/anuraghazra/github-readme-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/anuraghazra/github-readme-stats" />
 
       
       
