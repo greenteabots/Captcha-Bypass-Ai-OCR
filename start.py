@@ -2,9 +2,9 @@ from asyncio import threads
 from chrome_driver import *
 import threading
 
-max_threads = int(input("Enter the maximum number of threads: "))
-apikey = input("Enter your API key from https://ocr.space/ (its free): ")
-link = input('Enter the video link to your tiktok video: ') or 'https://www.tiktok.com/@db_crystal_choice/video/7152658281746500870'
+max_threads = 1
+apikey = 'getkeyfrom OCR.SPACE'
+link = 'https://www.tiktok.com/xxx here'
 
 
 def open_threads(max_threads):
