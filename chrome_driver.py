@@ -54,7 +54,7 @@ def get_views(apikey, link):
 
             # READ THE IMAGE TO TEXT USING OCR
 
-            text = ocr_space_file(filename= randomuuid + '.png', language='eng', api_key=apikey)
+            text = ocr_space_file(filename=randomuuid + '.png', language='eng', api_key=apikey)
 
             data = json.loads(text)
 
@@ -62,7 +62,6 @@ def get_views(apikey, link):
 
             print(line_text)
             text = line_text
-
 
             time.sleep(1)
 
@@ -91,9 +90,8 @@ def get_views(apikey, link):
             desired_button.click()
             time.sleep(2)
 
-
-
-            input_element = driver.find_element(By.XPATH, '/html/body[@class="text-center arka-plan-color"]/div[@class="container"]/div[@id="sid4"]/div[@class="card m-b-20 card-ortlax"]/form/div[@class="input-group mb-3"]/input[@class="form-control text-center font-weight-bold rounded-0"]')
+            input_element = driver.find_element(By.XPATH,
+                                                '/html/body[@class="text-center arka-plan-color"]/div[@class="container"]/div[@id="sid4"]/div[@class="card m-b-20 card-ortlax"]/form/div[@class="input-group mb-3"]/input[@class="form-control text-center font-weight-bold rounded-0"]')
             input_element.send_keys(link)
             time.sleep(3)
             driver.execute_script("document.elementFromPoint(1320, 167).click();")
@@ -101,7 +99,7 @@ def get_views(apikey, link):
             driver.execute_script("document.elementFromPoint(964, 217).click();")
             time.sleep(3)
 
-            #close driver
+            # close driver
             driver.close()
             os.remove(captcha_image.filename)
             print('Views Sent to link: ' + link)
